@@ -54,7 +54,6 @@ class MainActivity : AppCompatActivity() {
 
         timeInput = TimePicker(this).apply {
             setIs24HourView(true)
-            gravity = Gravity.CENTER
         }
         root.addView(timeInput, LinearLayout.LayoutParams(-1, 220))
 
